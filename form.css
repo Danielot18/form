@@ -1,0 +1,147 @@
+*{margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:rgb(100,150,90);
+    border-radius: 10px; color: white;
+    padding:15.5px;
+}
+.form-registration { 
+    background-color:rgba(0, 128, 0, 0.39);
+    border-radius: 10px; color:black;
+        padding: 10px;
+        margin-bottom:20px;
+    }
+.form-registration .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:auto; margin-right:auto;
+    padding:13px;
+}
+.form-registration .icon i {
+    background-color: green;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+}
+.form-registration form {
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+    padding: 15px;
+    margin-top: -10px;margin-left:auto; margin-right:auto;
+    width: 75%;
+}
+.form-registration form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-registration form button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-login {
+    background-color:rgba(0, 0, 90, 0.244);
+    border-radius: 10px; color:blue;
+    padding: 10px;
+    margin-bottom: 20px; margin-top: 20px;
+    }
+.form-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-left:auto; margin-right:auto;
+    width: 75%;
+}
+.form-login .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:auto; margin-right:auto;
+    padding:13px;
+}
+.form-login .icon i {
+    background-color:blue;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+}
+.form-login form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-login form button {
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-contact {
+    background-color:rgba(90, 0, 0, 0.244);
+    border-radius: 10px; color:black;
+    padding: 10px; gap: 10px;
+    margin-bottom: 20px; margin-top: 20px;
+}
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-left:auto; margin-right:auto;
+    width: 75%;
+}
+.form-contact .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:auto; margin-right:auto;
+    padding:13px;
+}
+.form-contact .icon i {
+    background-color: deeppink;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+}
+.form-contact form input, .form-contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-contact form button {
+    padding: 10px;
+    background-color:deeppink; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
